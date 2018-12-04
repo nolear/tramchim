@@ -1,0 +1,41 @@
+{
+  "name": "tool-mmo",
+  "version": "1.0.0",
+  "description": "Tool MMO",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "build --dir"
+  },
+  "build": {
+    "appId": "com.tool.mmo",
+    "productName": "Tool MMO"
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Tool"
+  ],
+  "author": "Faker",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^3.0.0",
+    "electron-winstaller": "^2.7.0"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "debug": "^4.1.0",
+    "electron-handlebars": "^2.0.0",
+    "electron-json-storage": "^4.1.2",
+    "faker": "^4.1.0",
+    "html2plaintext": "^2.1.0",
+    "jquery": "^3.3.1",
+    "jsdom": "^12.0.0",
+    "nedb": "^1.8.0",
+    "puppeteer": "^1.9.0",
+    "query-string": "^6.2.0",
+    "random-user-agent": "^1.0.0",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.5",
+    "unirest": "^0.5.1"
+  }
+}
